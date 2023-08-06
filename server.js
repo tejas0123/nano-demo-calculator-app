@@ -17,7 +17,7 @@ baseRouter.post('/add', (req, res) => {
     let num1 = req.body.first;
     let num2 = req.body.second;
     const sum = num1 + num2;
-    
+    const sum2 = 10;
     res.json({ "result": sum });
 });
 
